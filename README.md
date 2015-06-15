@@ -36,17 +36,6 @@ Reasoned Action, Portugal, Lisbon, June 2015.
 
 
 
-To Do
------
-
-* add the guidelines of the text generation experiment
-
-* add the annotation guidelines
-
-* specify chosen topic, stance and anonymized writer id in each argument graph
-
-
-
 Literature
 ----------
 
