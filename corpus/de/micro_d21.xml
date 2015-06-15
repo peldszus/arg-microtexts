@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d21">
+  <edu id="e1"><![CDATA[Energiesparlampen enthalten eine beträchtliche Menge Giftstoff.]]></edu>
+  <edu id="e2"><![CDATA[Eine handelsübliche Lampe kann z.B. bis zu fünf Milligramm Quecksilber enthalten.]]></edu>
+  <edu id="e3"><![CDATA[Deswegen sollten sie vom Markt genommen werden,]]></edu>
+  <edu id="e4"><![CDATA[es sei denn sie wären unzerbrechlich.]]></edu>
+  <edu id="e5"><![CDATA[Aber genau das ist leider nicht der Fall.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a1" type="exa"/>
+  <edge id="c4" src="a4" trg="c1" type="und"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

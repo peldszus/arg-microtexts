@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b055">
+  <edu id="e1"><![CDATA[Being a pharmacist myself,]]></edu>
+  <edu id="e2"><![CDATA[I argue categorically in favour of over-the-counter availability of the morning-after pill in pharmacies.]]></edu>
+  <edu id="e3"><![CDATA[From a medical perspective the morning-after pill works best when taken as soon as possible after intercourse.]]></edu>
+  <edu id="e4"><![CDATA[Always having to visit the doctor first (including travel and waiting time, possible embarrassment, etc.) leads to more unwanted pregnancies.]]></edu>
+  <edu id="e5"><![CDATA[Many opponents of the pill point out that this does away with the consultation at the doctor's and many women take it unnecessarily.]]></edu>
+  <edu id="e6"><![CDATA[However, the fact is that we pharmacists are legally required to inform the patients and possess the same subject matter expertise as doctors.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+  <edge id="c5" src="a5" trg="a2" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

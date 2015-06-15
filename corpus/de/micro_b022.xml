@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b022" topic_id="retirement_at_63" stance="con">
+  <edu id="e1"><![CDATA[Nein, das Rentenalter sollte wieder auf 65 Jahre erhöht werden.]]></edu>
+  <edu id="e2"><![CDATA[Die Menschen werden im Durchschnitt älter,]]></edu>
+  <edu id="e3"><![CDATA[sie sind damit aber im Durchschnitt nicht kränker und nicht dümmer.]]></edu>
+  <edu id="e4"><![CDATA[Ohne sie würden wir auf ein großes Maß an gesammelten Erfahrungen verzichten.]]></edu>
+  <edu id="e5"><![CDATA[Außerdem müssten mehr Beschäftigungsangebote für die Senioren bereitgestellt werden.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="c3" type="und"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+</arggraph>

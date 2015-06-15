@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b020">
+  <edu id="e1"><![CDATA[Olympic events are rooted in old traditions.]]></edu>
+  <edu id="e2"><![CDATA[On the other hand, the events have a culturally determined character.]]></edu>
+  <edu id="e3"><![CDATA[Our society is strongly digitized and influenced by computers.]]></edu>
+  <edu id="e4"><![CDATA[Yet sports are usually associated with physical training.]]></edu>
+  <edu id="e5"><![CDATA[Since however skat, chess etc. are not accepted as Olympic events,]]></edu>
+  <edu id="e6"><![CDATA[computer games should also not be recognized as Olympic events.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="add"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

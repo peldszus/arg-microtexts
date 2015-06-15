@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b006" topic_id="introduction_capital_punishment" stance="con">
+  <edu id="e1"><![CDATA[Die Todesstrafe ist ein Rechtsmittel, welches als solches in Deutschland nicht anwendbar ist.]]></edu>
+  <edu id="e2"><![CDATA[Zum einen ist in unserer Verfassung eine unantastbare Menschenwürde verankert]]></edu>
+  <edu id="e3"><![CDATA[und zum anderen kann sich kein Mensch ein Recht herausnehmen, über den Tod eines anderen Menschen entscheiden zu dürfen.]]></edu>
+  <edu id="e4"><![CDATA[Auch wenn viele Menschen denken, dass ein Mörder bereits über Leben und Tod eines anderen Menschen entschieden hat,]]></edu>
+  <edu id="e5"><![CDATA[ist dies ja die Straftat, die wir nicht mit eben solcher vergelten können.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

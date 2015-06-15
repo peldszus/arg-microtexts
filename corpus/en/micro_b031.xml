@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b031">
+  <edu id="e1"><![CDATA[One should not re-introduce capital punishment in Germany,]]></edu>
+  <edu id="e2"><![CDATA[since no one can claim the right to rule over the life or death of another human being.]]></edu>
+  <edu id="e3"><![CDATA[Capital punishment will not deter anyone else from an atrocity.]]></edu>
+  <edu id="e4"><![CDATA[Everyone must be given the chance to hone their conscience and possibly make amends for their deed.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

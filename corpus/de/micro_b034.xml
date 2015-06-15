@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b034" topic_id="charge_tuition_fees" stance="con">
+  <edu id="e1"><![CDATA[Studiengebühren dürften nicht generell an Universitäten erhoben werden.]]></edu>
+  <edu id="e2"><![CDATA[Universitäten sind für alle Bürger da, unabhängig vom Geldbeutel.]]></edu>
+  <edu id="e3"><![CDATA[Bildung und Ausbildung sind Grundrechte, die der Staat, die Gesellschaft leisten müssen.]]></edu>
+  <edu id="e4"><![CDATA[Fehlt den Universitäten Geld, muss nach Sponsoren gesucht werden.]]></edu>
+  <edu id="e5"><![CDATA[Leider kann dies in manchen Fällen zu unliebsamen Abhängigkeiten führen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

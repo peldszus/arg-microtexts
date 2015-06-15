@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b041">
+  <edu id="e1"><![CDATA[Secret services must be more tightly regulated in order to prevent excessive surveillance.]]></edu>
+  <edu id="e2"><![CDATA[After all, secret services tend to develop a life of their own (a state within a state), which would be irresponsible for democratic states.]]></edu>
+  <edu id="e3"><![CDATA[Besides, intelligence services intervene massively in the privacy of citizens]]></edu>
+  <edu id="e4"><![CDATA[and must therefore be monitored more closely to prevent abuse.]]></edu>
+  <edu id="e5"><![CDATA[Parliamentary control however hampers the work of intelligence services]]></edu>
+  <edu id="e6"><![CDATA[for it jeopardizes the secrecy and security of confidential data and informants.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="opp"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+</arggraph>

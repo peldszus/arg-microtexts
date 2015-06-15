@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k016">
+  <edu id="e1"><![CDATA[Despite the severe clashes in Kiev, which at times have threatened to escalate,]]></edu>
+  <edu id="e2"><![CDATA[the EU should not intervene in local politics.]]></edu>
+  <edu id="e3"><![CDATA[Although Ukraine is a European country,]]></edu>
+  <edu id="e4"><![CDATA[and the Ukrainian opposition is primarily interested in installing a robust democracy,]]></edu>
+  <edu id="e5"><![CDATA[possible supporters face a considerably stronger opponent in the intervention of Russia in local politics.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+</arggraph>

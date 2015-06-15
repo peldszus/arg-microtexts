@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k015">
+  <edu id="e1"><![CDATA[Der BER sollte von Grund auf an neu konzipiert werden,]]></edu>
+  <edu id="e2"><![CDATA[auch wenn bereits einige Milliarden Euro in das bestehende Flughafen-Großprojekt investiert wurden]]></edu>
+  <edu id="e3"><![CDATA[und sich auf diese Weise der Fertigstellungstermin auf unbestimmte Zeit hinauszögern würde.]]></edu>
+  <edu id="e4"><![CDATA[Sowohl die nur schleppend varangehenden Baumaßnahmen, als auch die sich anhäufenden Sicherheitsmängel zeigen deutliche Defizite in der Gesamtplanung.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

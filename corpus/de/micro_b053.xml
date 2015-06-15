@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b053" topic_id="health_insurance_cover_complementary_medicine" stance="con">
+  <edu id="e1"><![CDATA[Viele Menschen erfahren nachweislich durch Natur- und Heilpraktiker deutliche Linderung der Symptome und des Krankheitsgrades.]]></edu>
+  <edu id="e2"><![CDATA[Allerdings gibt es keine nachweislichen Daten, dass diese Heilung nicht nur auf dem Placebo-Effekt beruht.]]></edu>
+  <edu id="e3"><![CDATA[Außerdem sind viele Tätigkeiten in dieser Sparte keine geschützten Berufe,]]></edu>
+  <edu id="e4"><![CDATA[sodass Scharlatane und Schwindler, unbemerkt für die Patienten, diese ausüben können.]]></edu>
+  <edu id="e5"><![CDATA[Deshalb sollten die gesetzlichen Krankenkassen diese Behandlungen nicht bezahlen.]]></edu>
+  <edu id="e6"><![CDATA[Es wäre jedoch denkbar, seitens des Staates mehr in die Ausbildung und Kontrolle dieser Berufssparte zu investieren.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="reb"/>
+</arggraph>

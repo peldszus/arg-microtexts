@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d18">
+  <edu id="e1"><![CDATA[Schweinsteiger has now been injured for three days.]]></edu>
+  <edu id="e2"><![CDATA[We urgently need a midfield replacement for the coming match.]]></edu>
+  <edu id="e3"><![CDATA[The doctor was able to sign him off as fit for play with enough painkillers,]]></edu>
+  <edu id="e4"><![CDATA[but that would only make the injury worse in the long run.]]></edu>
+  <edu id="e5"><![CDATA[And a young substitute always invigorates the team.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+</arggraph>

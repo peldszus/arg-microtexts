@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b047">
+  <edu id="e1"><![CDATA[The morning-after pill has a number of side effects.]]></edu>
+  <edu id="e2"><![CDATA[A differentiated analysis of its side effects is not achievable for a layperson without medical advice.]]></edu>
+  <edu id="e3"><![CDATA[However these are clearly stated on the package insert,]]></edu>
+  <edu id="e4"><![CDATA[and a request for an early termination of a pregnancy is the right of every woman.]]></edu>
+  <edu id="e5"><![CDATA[The morning-after pill should only be prescribed after counselling by a physician or pharmacist.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="a5" type="reb"/>
+</arggraph>

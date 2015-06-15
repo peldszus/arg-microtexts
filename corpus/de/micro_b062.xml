@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b062" topic_id="retirement_at_63" stance="con">
+  <edu id="e1"><![CDATA[Ich bin nicht der Auffassung, dass das Rentenalter bei 63 Jahren liegen sollte.]]></edu>
+  <edu id="e2"><![CDATA[Dies würde bedeuten, dass in Zukunft viele Arbeitskräfte in den Unternehmen fehlen werden.]]></edu>
+  <edu id="e3"><![CDATA[Ein besonderes Problem wäre auch die Einführungsphase der Rente mit 63,]]></edu>
+  <edu id="e4"><![CDATA[da sofort bei Einführung viele aktuelle Arbeitnehmer gehobenen Alters Anspruch auf den Renteneintritt hätten.]]></edu>
+  <edu id="e5"><![CDATA[Das schädigt den Standort Deutschland und hinterlässt die Arbeitgeber ohne Übergangsfrist.]]></edu>
+  <edu id="e6"><![CDATA[Hier besteht die Gefahr, dass nicht ausreichend erfahrene Nachwuchskräfte zur Verfügung stehen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+  <edge id="c6" src="a6" trg="c4" type="add"/>
+</arggraph>

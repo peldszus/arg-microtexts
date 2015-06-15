@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b045">
+  <edu id="e1"><![CDATA[By purchasing illegally acquired tax data of citizens, the state is not only turning itself into a felon, but it is paying criminals, too.]]></edu>
+  <edu id="e2"><![CDATA[Besides, the purchase of such CDs is unnecessary today,]]></edu>
+  <edu id="e3"><![CDATA[as, due to changed terms of business, many banks urge their customers to turn themselves in.]]></edu>
+  <edu id="e4"><![CDATA[Acquiring CDs with tax data of tax delinquents is therefore out of the question.]]></edu>
+  <edu id="e5"><![CDATA[It is indisputable, however, that by purchasing such data the state increases the pressure on tax evaders to turn themselves in.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="sup"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

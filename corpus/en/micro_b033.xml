@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b033">
+  <edu id="e1"><![CDATA[I find the peripheral housing development at Tempelhofer Feld right for urban planning reasons,]]></edu>
+  <edu id="e2"><![CDATA[as the area is right in the middle of the city (capital).]]></edu>
+  <edu id="e3"><![CDATA[The size of the field allows for both housing and generous open space.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b041" topic_id="stricter_regulation_of_intelligence_services" stance="pro">
+  <edu id="e1"><![CDATA[Geheimdienste müssen stärker kontrolliert werden, um ein zu ausuferndes Überwachen zu verhindern.]]></edu>
+  <edu id="e2"><![CDATA[Geheimdienste neigen nämlich zu einem Eigenleben (Staat im Staate), das für demokratische Staaten unverantwortbar wäre.]]></edu>
+  <edu id="e3"><![CDATA[Zudem greifen Geheimdienste in die Privatsphäre der Bürger massiv ein]]></edu>
+  <edu id="e4"><![CDATA[und müssen schon deshalb stark kontrolliert werden, um Missbrauch zu verhindern.]]></edu>
+  <edu id="e5"><![CDATA[Parlamentarische Kontrolle macht aber die Arbeit von Geheimdiensten schwieriger]]></edu>
+  <edu id="e6"><![CDATA[denn sie gefährdet die Verschwiegenheit und Sicherheit von geheimen Daten und V-Männern.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="opp"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+</arggraph>

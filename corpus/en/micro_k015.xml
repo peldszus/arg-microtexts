@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k015">
+  <edu id="e1"><![CDATA[BER should be re-conceptualized from scratch,]]></edu>
+  <edu id="e2"><![CDATA[even if billions of Euros have already been invested in the existing airport project]]></edu>
+  <edu id="e3"><![CDATA[and this would delay the date of completion indefinitely.]]></edu>
+  <edu id="e4"><![CDATA[Both the drawn-out building operations and the mounting safety issues show clear shortcomings in the entire planning.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="reb"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

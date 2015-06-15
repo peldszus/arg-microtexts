@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b048">
+  <edu id="e1"><![CDATA[Every German citizen has a right to education.]]></edu>
+  <edu id="e2"><![CDATA[Quality at universities has its price,]]></edu>
+  <edu id="e3"><![CDATA[which is why students also ought to be involved in this cost factor.]]></edu>
+  <edu id="e4"><![CDATA[But education must not be a question of money in a wealthy society such as Germany.]]></edu>
+  <edu id="e5"><![CDATA[Therefore universities should not charge tuition fees in Germany.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+</arggraph>

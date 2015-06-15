@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b058" topic_id="make_video_games_olympic" stance="pro">
+  <edu id="e1"><![CDATA[Videospiele, bei mir namentlich FIFA, können junge Menschen stundenlang, intensiver und emotionaler begeistern als jeder Sport der Welt!]]></edu>
+  <edu id="e2"><![CDATA[Es wäre richtig, sie auch zu einer olympischen Disziplin zu machen.]]></edu>
+  <edu id="e3"><![CDATA[Vielleicht ist es für einen Zuschauer weniger spannend, als für den Spieler selbst,]]></edu>
+  <edu id="e4"><![CDATA[aber auch für aktuelle olympische Disziplinen, ich erinnere mich zuletzt an Curling oder 50 km Ski-Langlauf, muss man mehr als ein Freak sein, sich das länger als in der Zusammenfassung reinzuziehen.]]></edu>
+  <edu id="e5"><![CDATA[Außerdem ist die Hürde, Videospiele olympisch zu machen minimal,]]></edu>
+  <edu id="e6"><![CDATA[braucht es ja nicht mal Dopingkontrollen, sondern nur eine neutrale Konsole.]]></edu>
+  <edu id="e7"><![CDATA[Und körperliche, geistige und insbesondere mentale Fähigkeiten verlangt so manches Videospiel, wenn ich an das Finale des letzten Fifa-Turniers denke, mehr ab, als eine Kugel 20 Meter weit zu stoßen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+  <edge id="c7" src="a7" trg="a2" type="sup"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k001">
+  <edu id="e1"><![CDATA[Not everyone should be obliged to pay the TV & radio licence.]]></edu>
+  <edu id="e2"><![CDATA[Particularly the younger generations are no longer dependent on the programming of public broadcasters.]]></edu>
+  <edu id="e3"><![CDATA[US series are preferred over “Tatort”,]]></edu>
+  <edu id="e4"><![CDATA[and online magazines are turned to instead of the “Tagesthemen”.]]></edu>
+  <edu id="e5"><![CDATA[The TV & radio licence enables economically independent journalism.]]></edu>
+  <edu id="e6"><![CDATA[But as long as the licence payers have no say in the distribution of the funds, the fee quite rightly annoys them.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a2" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="c4" type="und"/>
+</arggraph>

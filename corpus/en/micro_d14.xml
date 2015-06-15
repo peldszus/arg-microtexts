@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d14">
+  <edu id="e1"><![CDATA[I think Fritz has never been in a fight in his life.]]></edu>
+  <edu id="e2"><![CDATA[As a boy he did use to scuffle with the other choirboys,]]></edu>
+  <edu id="e3"><![CDATA[but that hardly counts as a proper brawl.]]></edu>
+  <edu id="e4"><![CDATA[And he always chickens out when things get dicey.]]></edu>
+  <edu id="e5"><![CDATA[Yesterday, when the bouncer wouldn't let us in, he was suddenly gone.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="exa"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k031" topic_id="higher_dog_poo_fines" stance="pro">
+  <edu id="e1"><![CDATA[Hundehaufen auf Gehwegen sind eine echte Gefahr.]]></edu>
+  <edu id="e2"><![CDATA[Immer wieder rutschen Kinder oder ältere Leute darauf aus.]]></edu>
+  <edu id="e3"><![CDATA[Eine Geldstrafe für Haufenhinterlassung mutet zugegeben ziemlich obrigkeitsstaatlich an,]]></edu>
+  <edu id="e4"><![CDATA[aber ähnliche Regelungen gibt es schließlich oft auch für Fahrräder auf Parkwegen.]]></edu>
+  <edu id="e5"><![CDATA[Die Geldstrafen zu erhöhen ist also der richtige Weg.]]></edu>
+  <edu id="e6"><![CDATA[Eine hundehaufenfreie Stadt wird nicht nur für die Bewohner, sondern auch für Touristen viel attraktiver sein!]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+</arggraph>

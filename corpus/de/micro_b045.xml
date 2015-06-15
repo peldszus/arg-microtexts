@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b045" topic_id="buy_tax_evader_data_from_dubious_sources" stance="con">
+  <edu id="e1"><![CDATA[Durch den Ankauf von illegal erworbenen Steuerdaten von Bürgern macht sich der Staat selbst nicht nur zum Verbrecher, sondern bezahlt auch noch Kriminelle.]]></edu>
+  <edu id="e2"><![CDATA[Zudem ist der Ankauf solcher CDs ist heute unnötig,]]></edu>
+  <edu id="e3"><![CDATA[da viele Banken wegen geänderter Geschäftsbedingungen ihre Kunden selbst drängen sich anzuzeigen.]]></edu>
+  <edu id="e4"><![CDATA[Ein Ankauf von CDs mit Steuerdaten von Steuersündern kommt daher nicht in Frage.]]></edu>
+  <edu id="e5"><![CDATA[Unbestritten ist aber, dass der Staat durch den Ankauf den Druck auf Steuersünder erhöht, sich selbst anzuzeigen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="sup"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

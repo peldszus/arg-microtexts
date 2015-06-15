@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b058">
+  <edu id="e1"><![CDATA[Video games, namely FIFA in my case, can fascinate young people for hours more intensively and emotionally than any sport in the world!]]></edu>
+  <edu id="e2"><![CDATA[It would be fair to make them into an Olympic event.]]></edu>
+  <edu id="e3"><![CDATA[Perhaps it is less thrilling for a spectator than for the player,]]></edu>
+  <edu id="e4"><![CDATA[but also for contemporary Olympic events, I recall curling and 50km cross-country skiing, you have to be more than a freak to follow those more properly than only in the roundup of highlights.]]></edu>
+  <edu id="e5"><![CDATA[Plus the hurdle to make video games Olympic events is minimal,]]></edu>
+  <edu id="e6"><![CDATA[as you don't even need doping tests, only a neutral console.]]></edu>
+  <edu id="e7"><![CDATA[And many a video game is physically and particularly mentally more demanding, when I think of the last FIFA tournament's final, than kicking a ball 20 metres.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="a2" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="sup"/>
+  <edge id="c7" src="a7" trg="a2" type="sup"/>
+</arggraph>

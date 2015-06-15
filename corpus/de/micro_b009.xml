@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b009" topic_id="cap_rent_increases" stance="pro">
+  <edu id="e1"><![CDATA[Dass Mieter heutzutage bei einem Neueinzug einen viel höheren Preis als der Vormieter zahlen müssen, ist ungerecht und nicht mehr zu rechtfertigen.]]></edu>
+  <edu id="e2"><![CDATA[Sicherlich muss der Vermieter einige Instandsetzungs-Maßnahmen vor Neueinzug zahlen.]]></edu>
+  <edu id="e3"><![CDATA[Doch diese Ausgaben müssten auch durch minimale Mieterhöhungen über den gesamten Mietzeitraum getilgt werden können.]]></edu>
+  <edu id="e4"><![CDATA[Zumal der Mietpreis gegenüber dem Grundmietpreis für einen ausreichenden Gewinn nicht bei jeder Neuvermietung angehoben werden muss.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+</arggraph>

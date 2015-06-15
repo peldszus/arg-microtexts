@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b035" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1"><![CDATA[Naturheilverfahren sind in vielen Bereichen erwiesene gesundheitsfördernde Behandlungsmethoden,]]></edu>
+  <edu id="e2"><![CDATA[die häufig preiswerter als Medikamente der Schulmedizin sind, die ja auch bezahlt werden.]]></edu>
+  <edu id="e3"><![CDATA[Oft sind Naturheilverfahren für die Patienten nicht so sehr belastend.]]></edu>
+  <edu id="e4"><![CDATA[Diese Heilverfahren können durch das aktive Mittun der Patienten häufig Besserung des Zustandes bewirken.]]></edu>
+  <edu id="e5"><![CDATA[Die Kassen müssen befähigt werden, die Entscheidung des Arztes für eine Naturheilbehandlung anzuerkennen und auch zu bezahlen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

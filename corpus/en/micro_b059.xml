@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b059">
+  <edu id="e1"><![CDATA[Rent prices are already regulated in favour of tenants due to existing laws and the rent index.]]></edu>
+  <edu id="e2"><![CDATA[In view of the high prices for buying flats with existing rent contracts, these are an unattractive investment.]]></edu>
+  <edu id="e3"><![CDATA[Even if one might think that additional rent control is needed besides the current tenant protection,]]></edu>
+  <edu id="e4"><![CDATA[one should not deny longstanding owners the opportunity to adjust their returns to market level.]]></edu>
+  <edu id="e5"><![CDATA[A cap on rent increases upon tenant change is therefore not to be supported.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="sup"/>
+  <edge id="c2" src="a2" trg="a5" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="reb"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+</arggraph>

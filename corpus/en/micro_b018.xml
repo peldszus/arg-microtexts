@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b018">
+  <edu id="e1"><![CDATA[The choice of an attending physician is at the discretion of the patient.]]></edu>
+  <edu id="e2"><![CDATA[Yet the funds of the health insurance companies are a common benefit for all premium payers.]]></edu>
+  <edu id="e3"><![CDATA[They should not be spent on personal preferences without proven use.]]></edu>
+  <edu id="e4"><![CDATA[The effectiveness of many natural remedies has not been demonstrated.]]></edu>
+  <edu id="e5"><![CDATA[Therefore no unproven and unrecognized treatments by naturopaths should be reimbursed by the insurance companies.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+</arggraph>

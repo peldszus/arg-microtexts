@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k013">
+  <edu id="e1"><![CDATA[Auch Supermarktangestellte und Menschen, die in Einkaufszentren arbeiten, haben das Recht, einen freien Sonntag zu haben.]]></edu>
+  <edu id="e2"><![CDATA[Ebenso sollen Feiertage das bleiben, was sie sind: für die Einen Tage der Einkehr, für die anderen bezahlter Urlaub, die nicht vom eigentlichen Urlaub abgehen.]]></edu>
+  <edu id="e3"><![CDATA[Also ist es gut, wenn die Geschäfte an Sonn- und Feiertagen nicht öffnen.]]></edu>
+  <edu id="e4"><![CDATA[Menschen, die jedoch unter der Woche und Samstags arbeiten, haben dann allerdings ein Problem: alle anderen können werktags einkaufen gehen, sie jedoch nicht.]]></edu>
+  <edu id="e5"><![CDATA[Für diese Menschen stellen die späten Schließungszeiten, die inzwischen schon bis um 12:00 nachts gehen, eine gute Alternative dar.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

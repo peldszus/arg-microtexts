@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b026" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1"><![CDATA[Die gesetzlichen Krankenkassen sollten auch Behandlungen beim Natur- oder Heilpraktiker zahlen.]]></edu>
+  <edu id="e2"><![CDATA[Deren Behandlungsmethoden und -Erfolge sind zwar nicht hinreichend erforscht oder nachgewiesen.]]></edu>
+  <edu id="e3"><![CDATA[Doch viele Patienten empfinden subjektiv eine Linderung oder Heilung ihrer Beschwerden,]]></edu>
+  <edu id="e4"><![CDATA[wodurch letztlich auch Kosten für Behandlungen und Medikamente der klassischen Medizin eingespart werden.]]></edu>
+  <edu id="e5"><![CDATA[Auch die (kassen-)ärztliche Kunst ist in vielen Fällen nicht erfolgreich]]></edu>
+  <edu id="e6"><![CDATA[und zudem mit erheblichen Risiken und Nebenwirkungen verbunden.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="sup"/>
+  <edge id="c6" src="a6" trg="a1" type="sup"/>
+</arggraph>

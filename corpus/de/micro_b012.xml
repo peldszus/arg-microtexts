@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b012" topic_id="school_uniforms" stance="pro">
+  <edu id="e1"><![CDATA[Manche mögen das Konzept der Schul-Uniform anachronistisch finden,]]></edu>
+  <edu id="e2"><![CDATA[oder als einen zu starken Eingriff in den Entscheidungsspielraum von Schülern und Eltern begreifen.]]></edu>
+  <edu id="e3"><![CDATA[In der Tat ist es jedoch heute schon so, dass die Schüler auch vermeintlich "Uniform-freier" Schulen im Prinzip eine Uniform tragen, die aus bestimmten Markenklamotten besteht.]]></edu>
+  <edu id="e4"><![CDATA[Ein einfach gestaltetes, praktisches Outfit würde das visuelle Gesamtbild der Schule beruhigen, und den Fokus auf Charakter und Leistungen der Schüler - und nicht ihre Kaufkraft - lenken.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="a4" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+</arggraph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b049">
+  <edu id="e1"><![CDATA[The bachelor thesis reflects both the content and the methods of the topics covered during a degree programme.]]></edu>
+  <edu id="e2"><![CDATA[But one can make occasional mistakes in the thesis.]]></edu>
+  <edu id="e3"><![CDATA[If this carries more weight, many good individual assignments done during the course of study may be obscured.]]></edu>
+  <edu id="e4"><![CDATA[A good grade for the thesis also significantly depends on the supervision of a dedicated teacher.]]></edu>
+  <edu id="e5"><![CDATA[Due to the many random factors the bachelor thesis should not play a bigger role.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k019">
+  <edu id="e1"><![CDATA[The thought of television exclusively made up of private channels scares me.]]></edu>
+  <edu id="e2"><![CDATA[Admittedly trash and turmoil are exactly what the majority of people want to see.]]></edu>
+  <edu id="e3"><![CDATA[But to therefore offer TV according to audience rates only would be dangerous.]]></edu>
+  <edu id="e4"><![CDATA[Only in public TV programmes can viewers get information that is not profit-oriented.]]></edu>
+  <edu id="e5"><![CDATA[And since it is the duty of society to collectively finance certain areas that cannot hold their own in a market economy,]]></edu>
+  <edu id="e6"><![CDATA[everyone should chip in.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+</arggraph>

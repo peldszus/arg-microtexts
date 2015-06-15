@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d23">
+  <edu id="e1"><![CDATA[Tomorrow I will skydive for the first time in my life.]]></edu>
+  <edu id="e2"><![CDATA[Yes, there is a certain risk to life.]]></edu>
+  <edu id="e3"><![CDATA[But I want to experience this incredible moment of freedom that skydivers report time and again.]]></edu>
+  <edu id="e4"><![CDATA[Besides, Jochen was given a parachute jump the other day as a gift,]]></edu>
+  <edu id="e5"><![CDATA[and it mustn't be that this wannabe-adventurer has one up on me.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="c4" type="add"/>
+</arggraph>

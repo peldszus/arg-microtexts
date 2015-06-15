@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k006">
+  <edu id="e1"><![CDATA[Wenn Deutschland die Todesstrafe einführen würde, könnten verurteilte Verbrecher nicht vorzeitig entlassen werden oder ausbrechen und neue Straftaten begehen.]]></edu>
+  <edu id="e2"><![CDATA[Allerdings bringt der Tod den Betroffenen und Angehörigen nicht mehr als wenn die Verbrecher eine Haftstrafe langjährige bekommen würden.]]></edu>
+  <edu id="e3"><![CDATA[Außerdem leben wir nicht mehr im Mittelalter.]]></edu>
+  <edu id="e4"><![CDATA[Die Todesstrafe zu verhängen ist unethisch.]]></edu>
+  <edu id="e5"><![CDATA[Wir brauchen sie nicht.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+</arggraph>

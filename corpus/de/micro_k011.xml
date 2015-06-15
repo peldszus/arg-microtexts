@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k011">
+  <edu id="e1"><![CDATA[Mietpreiserhöhungen bei einer Neuvermietung sind an sich nicht so schlimm, wenn es sich nur um einen kleinen Betrag handelt,]]></edu>
+  <edu id="e2"><![CDATA[sehr schlimm allerdings, wenn die Miete auf einmal 100,- bis 200,-€ steigt.]]></edu>
+  <edu id="e3"><![CDATA[Bei diesen Beträgen überlegt man es sich noch einmal, ob man wirklich in der Wohnung bleiben will.]]></edu>
+  <edu id="e4"><![CDATA[Wenn es schon Mietpreiserhöhungen gibt, dann soll es also auch eine Beschränkung geben, um bösen Überraschungen vorzubeugen.]]></edu>
+  <edu id="e5"><![CDATA[Den Vermietern ist so geholfen,]]></edu>
+  <edu id="e6"><![CDATA[weil sie mit der Erhöhung ihre Ausgaben anpassen können,]]></edu>
+  <edu id="e7"><![CDATA[und den neuen Mietern ist ebenfalls geholfen,]]></edu>
+  <edu id="e8"><![CDATA[da sie eine maximale Mietpreiserhöhung einkalkulieren können.]]></edu>
+  <edu id="e9"><![CDATA[Dass die Vermieter dann in der Verwaltung ihres Eigentums etwas eingeschränkt werden ist kein Problem,]]></edu>
+  <edu id="e10"><![CDATA[da sie letztendlich ja doch am längeren Hebel sitzen.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <adu id="a8" type="pro"/>
+  <adu id="a9" type="pro"/>
+  <adu id="a10" type="pro"/>
+  <edge id="c10" src="e1" trg="a1" type="seg"/>
+  <edge id="c11" src="e2" trg="a2" type="seg"/>
+  <edge id="c12" src="e3" trg="a3" type="seg"/>
+  <edge id="c13" src="e4" trg="a4" type="seg"/>
+  <edge id="c14" src="e5" trg="a5" type="seg"/>
+  <edge id="c15" src="e6" trg="a6" type="seg"/>
+  <edge id="c16" src="e7" trg="a7" type="seg"/>
+  <edge id="c17" src="e8" trg="a8" type="seg"/>
+  <edge id="c18" src="e9" trg="a9" type="seg"/>
+  <edge id="c19" src="e10" trg="a10" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a2" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+  <edge id="c6" src="a7" trg="a4" type="sup"/>
+  <edge id="c7" src="a8" trg="a7" type="sup"/>
+  <edge id="c8" src="a9" trg="a4" type="sup"/>
+  <edge id="c9" src="a10" trg="a9" type="sup"/>
+</arggraph>

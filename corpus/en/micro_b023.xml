@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b023">
+  <edu id="e1"><![CDATA[No human being or human committee should again be given the permission to rule over 'life or death'.]]></edu>
+  <edu id="e2"><![CDATA[Courts are also subject to human error.]]></edu>
+  <edu id="e3"><![CDATA[That's why Germany should not introduce capital punishment!]]></edu>
+  <edu id="e4"><![CDATA[Every human, even those who have committed a despicable crime, can bring themselves to regret and change their opinion.]]></edu>
+  <edu id="e5"><![CDATA[A door must remain open for making amends.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a5" type="sup"/>
+  <edge id="c5" src="a5" trg="a3" type="sup"/>
+</arggraph>

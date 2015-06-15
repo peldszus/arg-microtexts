@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d16">
+  <edu id="e1"><![CDATA[Bald ist Bundestagswahl]]></edu>
+  <edu id="e2"><![CDATA[und traditionellerweise ist die Regierungspartei im Vorfeld von Bundestagswahlen großzügig mit populären Versprechungen.]]></edu>
+  <edu id="e3"><![CDATA[Trotzdem sollte Regierungschefin Merkel sich dieses Jahr mit dem Ankündigen von Wahlgeschenken besser zurückhalten.]]></edu>
+  <edu id="e4"><![CDATA[Der Wähler ist skeptischer geworden.]]></edu>
+  <edu id="e5"><![CDATA[Zu viele Versprechen sind nicht gehalten worden.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+</arggraph>

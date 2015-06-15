@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d22">
+  <edu id="e1"><![CDATA[Großveranstaltungen, die national oder gar international Aufmerksamkeit erregen, ziehen viele Besucher an,]]></edu>
+  <edu id="e2"><![CDATA[und nichts hilft Berlin eher aus der finanziellen Patsche als viele zahlungsfreudige Besucher.]]></edu>
+  <edu id="e3"><![CDATA[Deswegen sollte der regierende Bürgermeister die Hürden für die Austragung solcher Veranstaltungen so niedrig wie möglich halten.]]></edu>
+  <edu id="e4"><![CDATA[Zwar wäre ein deutlich höherer Zuschuss vom Bund für die Berliner Kassen natürlich noch besser,]]></edu>
+  <edu id="e5"><![CDATA[aber darauf braucht man nicht zu hoffen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c4" src="a4" trg="a2" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

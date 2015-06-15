@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b007">
+  <edu id="e1"><![CDATA[Dog dirt on the pavement requires my complete, ground-focused attention on my way to work.]]></edu>
+  <edu id="e2"><![CDATA[This results in a lack of alertness in the road traffic comparable to a minor offense of the traffic regulations.]]></edu>
+  <edu id="e3"><![CDATA[That's why causing such obstacles must to be more urgently punished.]]></edu>
+  <edu id="e4"><![CDATA[Dog owners may think that dog dirt is only a harmless secretion of an animal like any other.]]></edu>
+  <edu id="e5"><![CDATA[Yet then they misjudge its impact on road traffic.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a1" trg="a2" type="sup"/>
+  <edge id="c3" src="a2" trg="a3" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="a4" type="reb"/>
+</arggraph>

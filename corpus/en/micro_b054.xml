@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b054">
+  <edu id="e1"><![CDATA[For years there has been a housing shortage in Berlin,]]></edu>
+  <edu id="e2"><![CDATA[so that using Tempelhofer Feld, which offers a lot of open space and is currently hardly developed, as living space is a sensible idea.]]></edu>
+  <edu id="e3"><![CDATA[Since the area belongs to the federal state, or the federation,]]></edu>
+  <edu id="e4"><![CDATA[it could even be used for social housing with affordable rents.]]></edu>
+  <edu id="e5"><![CDATA[Admittedly the fields have currently become an attractive leisure park with sporting areas for many visitors and Berliners, especially in spring and summer.]]></edu>
+  <edu id="e6"><![CDATA[If however one could find a compromise between green space and housing, then Tempelhofer Feld should definitely be made available for residential construction.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a2" type="sup"/>
+  <edge id="c5" src="a5" trg="c2" type="und"/>
+</arggraph>

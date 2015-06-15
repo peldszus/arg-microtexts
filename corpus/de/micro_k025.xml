@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k025">
+  <edu id="e1"><![CDATA[Die Todestrafe ist keine Lösung,]]></edu>
+  <edu id="e2"><![CDATA[weil es nicht auszuschliessen ist, dass die Justiz sich nicht irren kann.]]></edu>
+  <edu id="e3"><![CDATA[Die Straftäter sollten jedoch nicht in Luxus-Gefängnissen sitzen.]]></edu>
+  <edu id="e4"><![CDATA[Es gibt nämlich Straftäter, die gegen gute Verpflegung, keine Steuern, die bezahlt werden müssen, kein Stress um die Arbeit, gerne in den Gefängnissen "leben".]]></edu>
+  <edu id="e5"><![CDATA[Trotzdem braucht der Staat braucht die Todesstrafe als Abschreckung für abscheuliche Straftaten.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a5" type="reb"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+</arggraph>

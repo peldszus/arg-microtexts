@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b018" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
+  <edu id="e1"><![CDATA[Die Wahl des behandelnden Arztes steht dem Patienten frei.]]></edu>
+  <edu id="e2"><![CDATA[Jedoch ist das Geld der Gesundheitskassen eine Gemeinschaftsleistung aller Beitragszahler.]]></edu>
+  <edu id="e3"><![CDATA[Sie sollten nicht für persönliche Vorlieben ohne nachweislichen Nutzen aufgewendet werden.]]></edu>
+  <edu id="e4"><![CDATA[Die Wirkung vieler Naturheilmittel ist nicht erwiesen.]]></edu>
+  <edu id="e5"><![CDATA[Daher sollten keine ungeprüften und unanerkannten Behandlungen bei Naturheilkundlern von den Kassen erstattet werden.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a5" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="add"/>
+</arggraph>

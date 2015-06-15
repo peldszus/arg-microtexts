@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b042">
+  <edu id="e1"><![CDATA[The state ought not to restrict medical products or medical treatments for moral reasons as long as they don't do damage to others.]]></edu>
+  <edu id="e2"><![CDATA[But without a prescription requirement there's also no medical advice given before intake.]]></edu>
+  <edu id="e3"><![CDATA[Since the impact of the morning-after pill is so massive, particularly due to its abortive effect,]]></edu>
+  <edu id="e4"><![CDATA[dispensing it without medical advice would be inappropriate.]]></edu>
+  <edu id="e5"><![CDATA[Easy access to the morning-after pill could also result in its appearing to be an easier method than other forms of contraception that, however, have fewer health effects.]]></edu>
+  <edu id="e6"><![CDATA[For instance the morning-after pill could result in a decrease in the use of condoms and thus lead to an increase in new infections with Aids.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="c1" type="und"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="sup"/>
+  <edge id="c6" src="a6" trg="a5" type="exa"/>
+</arggraph>

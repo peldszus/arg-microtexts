@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d10">
+  <edu id="e1"><![CDATA[In wenigen Jahrzehnten wird unsere Gesellschaft überaltert sein:]]></edu>
+  <edu id="e2"><![CDATA[Die Lebenserwartung steigt kontinuierlich,]]></edu>
+  <edu id="e3"><![CDATA[gleichzeitig geht die Geburtenrate zurück.]]></edu>
+  <edu id="e4"><![CDATA[Zwar ist Kinderkriegen in den letzten Jahren wieder in Mode gekommen,]]></edu>
+  <edu id="e5"><![CDATA[aber diese kurzfristigen Schwankungen der Geburtenrate ändern nichts an der generellen Entwicklung.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="c2" type="add"/>
+  <edge id="c4" src="a4" trg="a3" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

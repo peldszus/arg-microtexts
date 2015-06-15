@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k010">
+  <edu id="e1"><![CDATA[Bei dem, was heutzutage im Fernsehen läuft, ist es angemessen, nur die Leute zahlen zu lassen, die die Beiträge auch wirklich verfolgen (wollen).]]></edu>
+  <edu id="e2"><![CDATA[Teilweise laufen nur Sendungen für die ältere Generation zu Spielfilmzeiten, wieso sollten also alle dafür zahlen?]]></edu>
+  <edu id="e3"><![CDATA[Werbung gibt es inzwischen auf allen Kanälen,]]></edu>
+  <edu id="e4"><![CDATA[also ergibt sich auch hierdurch kein Vorteil für die im Moment zahlenden Zuschauer der Öffentlich Rechtlichen Sender.]]></edu>
+  <edu id="e5"><![CDATA[Trotzdem muss man sagen, dass es dann wahrscheinlich viel weniger dieser Sender gibt, wenn nicht mehr ganz Deutschland zahlen muss.]]></edu>
+  <edu id="e6"><![CDATA[Das sollte allerdings bei der Masse an Sendungen und Sendern, die sowieso meistens das Gleiche zeigen, kein Problem sein.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b051">
+  <edu id="e1"><![CDATA[Due to the increase in opening hours on Sundays and holidays there is a rise in employment.]]></edu>
+  <edu id="e2"><![CDATA[However it's mainly temps (that is, students, pupils etc.) who are employed,]]></edu>
+  <edu id="e3"><![CDATA[so this has hardly any effect on the level of full-time employment and the number of unemployed.]]></edu>
+  <edu id="e4"><![CDATA[On top of that, private and family life suffers massively because of this reduction and shifting in designated off-times.]]></edu>
+  <edu id="e5"><![CDATA[And it’s only the large companies that can afford the additional personnel expenditure.]]></edu>
+  <edu id="e6"><![CDATA[For these reasons supermarkets and shopping centres should not be allowed to be open for business on arbitrary Sundays and holidays.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="reb"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="c1" type="und"/>
+  <edge id="c4" src="a4" trg="a6" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

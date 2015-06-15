@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b057">
+  <edu id="e1"><![CDATA[Retirement at 63, that's something everyone who has toiled away (nonstop) up to this point surely deserves.]]></edu>
+  <edu id="e2"><![CDATA[Only the question remains whether this early 'leisure' will be nicer if you have no idea what do to all day and you statistically still have almost 20 (!!!) years to go?]]></edu>
+  <edu id="e3"><![CDATA[Also, one isn't taking responsibility for society if one gives up one's experienced, healthy and highly qualified capabilities earlier than necessary for private/personal reasons.]]></edu>
+  <edu id="e4"><![CDATA[Especially now, as there is a lack of skilled labour, it's irresponsible for the economy and prosperity to retire at 63.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="reb"/>
+  <edge id="c2" src="a2" trg="a4" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="sup"/>
+</arggraph>

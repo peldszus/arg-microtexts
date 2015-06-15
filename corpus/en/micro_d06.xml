@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d06">
+  <edu id="e1"><![CDATA[Peter should close his snack bar as soon as possible.]]></edu>
+  <edu id="e2"><![CDATA[Pricing pressures are just too high,]]></edu>
+  <edu id="e3"><![CDATA[and his pool of customers is shrinking constantly.]]></edu>
+  <edu id="e4"><![CDATA[Of course he could do another big ad campaign,]]></edu>
+  <edu id="e5"><![CDATA[but that won't do the trick if the whole neighbourhood is going down the drain in the end.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="c3" type="und"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

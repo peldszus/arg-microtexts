@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k012">
+  <edu id="e1"><![CDATA[Deutsche Universitäten sollten auf keinen Fall Studiengebühren verlangen.]]></edu>
+  <edu id="e2"><![CDATA[Dies würde nur dazu führen, dass sich nur Menschen mit gut verdienenden Eltern oder einer vorherigen Ausbildung und einem Nebenjob während des Studiums überhaupt für ein Studium bewerben könnten.]]></edu>
+  <edu id="e3"><![CDATA[Auch ohne Studiengebühren muss jeder zweite während des Studierens arbeiten und hat so weniger Zeit für das Lernen und die Freizeit.]]></edu>
+  <edu id="e4"><![CDATA[Man kann zwar behaupten, durch mehr Studiengebühren würden auch die Bildungseinrichtungen besser ausgestattet werden.]]></edu>
+  <edu id="e5"><![CDATA[Doch was bringt eine wunderbar ausgestattete Universität, wenn sie dem Großteil der schlauen Menschen gar keine Chance gibt, mit der tollen Ausstattung ihren Horizont zu erweitern?]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="reb"/>
+  <edge id="c5" src="a5" trg="c4" type="und"/>
+</arggraph>

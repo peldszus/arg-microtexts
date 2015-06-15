@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b061">
+  <edu id="e1"><![CDATA[Higher penalties for dog dirt are pointless as long as there is not enough personnel to enforce them.]]></edu>
+  <edu id="e2"><![CDATA[In individual cases they may indeed act as a deterrent,]]></edu>
+  <edu id="e3"><![CDATA[in general, however, a clean environment and the role model effect of others is more likely to motivate the dog owner to pick up the droppings than a potential fine.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+</arggraph>

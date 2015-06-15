@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_k004">
+  <edu id="e1"><![CDATA[Supermarkets and shopping centres should be allowed to open on any Sundays and holidays.]]></edu>
+  <edu id="e2"><![CDATA[This may be a change for the employees that cannot to be implemented easily.]]></edu>
+  <edu id="e3"><![CDATA[However, especially for working customers this would mean greater flexibility and fewer nerve-racking peak times during the week.]]></edu>
+  <edu id="e4"><![CDATA[Considering the growing digitization of society, the traditional model of the weekend will soon be obsolete.]]></edu>
+  <edu id="e5"><![CDATA[Many European countries, for instance the Netherlands, Sweden and Great Britain, have already understood this and successfully adjusted the opening hours for retailers.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="exa"/>
+</arggraph>

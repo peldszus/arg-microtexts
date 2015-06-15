@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_d14">
+  <edu id="e1"><![CDATA[Ich glaube, der Fritz hat sich in seinem Leben noch nie geprügelt.]]></edu>
+  <edu id="e2"><![CDATA[Er soll sich ja als Junge hin und wieder mit anderen Chorknaben gebalgt haben,]]></edu>
+  <edu id="e3"><![CDATA[aber das wird man ja wohl kaum als richtige Schlägerei durchgehen lassen.]]></edu>
+  <edu id="e4"><![CDATA[Außerdem verdrückt er sich meistens gleich wenn's brenzlig wird.]]></edu>
+  <edu id="e5"><![CDATA[Gestern, als uns die Türsteher erst nicht reinlassen wollten, da war er auch ganz plötzlich weg.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c2" src="a2" trg="a1" type="reb"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a4" type="exa"/>
+</arggraph>

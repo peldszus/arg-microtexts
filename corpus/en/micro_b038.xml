@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_b038">
+  <edu id="e1"><![CDATA[School uniforms should be introduced in our schools again.]]></edu>
+  <edu id="e2"><![CDATA[This provides an at least superficial equalization in our heavily economically oriented society,]]></edu>
+  <edu id="e3"><![CDATA[which may reduce discrimination of financially and/or socially disadvantaged children.]]></edu>
+  <edu id="e4"><![CDATA[Furthermore, it would facilitate the finding of truants, who may wish to get away with fewer classes at school.]]></edu>
+  <edu id="e5"><![CDATA[Uniforms always and immediately provoke fear of losing one's individuality]]></edu>
+  <edu id="e6"><![CDATA[but what's really lacking in schools today is rather a real sense of community, which would possibly be strengthened by an equal, collective appearance.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a1" type="sup"/>
+  <edge id="c4" src="a4" trg="a1" type="sup"/>
+  <edge id="c5" src="a5" trg="a1" type="reb"/>
+  <edge id="c6" src="a6" trg="c5" type="und"/>
+</arggraph>
