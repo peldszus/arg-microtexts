@@ -1,0 +1,66 @@
+<!--
+ %HEADER
+
+ %General Information: Graph, EDU, JOINT, ADU, Edges
+-->
+
+
+<!DOCTYPE arggraph
+[
+
+<!-- ### edge type ###
+ %Description
+
+ # Values
+ seg: segmentation edges (EDU->ADU, EDU->JOINT, JOINT->ADU)
+ sup: support (ADU->ADU)
+ exa: support by example (ADU->ADU)
+ add: additional source, models combined/convergent arguments with multiple premises (ADU->ADU)
+ reb: rebutting attack (ADU->ADU)
+ und: undercutting attack (ADU->Edge)
+-->
+<!ENTITY % EdgeType "(seg | sup | exa | add | reb | und)">
+
+
+<!-- ### adu type ###
+ %Description
+
+ # Values
+ pro: proponent
+ opp: opponent
+-->
+<!ENTITY % AduType "(pro | opp)">
+
+
+<!-- ### stance type ###
+ Annotated texts typically discuss a controversial topic, i.e. an issue posed
+ as a yes/no question. Example: "Should we make use of capital punishment?"
+ The stance type specifies, which stance the author of this text takes
+ towards this issue.
+ 
+ # Values
+ pro: yes - in favour of the proposed issue
+ con: no  - against the proposed issue
+-->
+<!ENTITY % StanceType "(pro | con)">
+
+
+<!ELEMENT edu ( #PCDATA ) >
+<!ATTLIST edu id ID #REQUIRED >
+
+<!ELEMENT adu EMPTY >
+<!ATTLIST adu id ID #REQUIRED >
+<!ATTLIST adu type %AduType; #REQUIRED >
+
+<!ELEMENT edge EMPTY >
+<!ATTLIST edge id ID #REQUIRED >
+<!ATTLIST edge src IDREF #REQUIRED >
+<!ATTLIST edge trg IDREF #REQUIRED >
+<!ATTLIST edge type %EdgeType; #REQUIRED >
+
+<!ELEMENT arggraph ( edu+, joint*, adu+, edge+ ) >
+<!ATTLIST arggraph id ID #REQUIRED >
+<!ATTLIST arggraph stance %StanceType; #IMPLIED >
+<!ATTLIST arggraph topic_id NMTOKEN #IMPLIED >
+
+]>
