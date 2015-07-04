@@ -1,0 +1,107 @@
+<!--
+ ===================
+ ARGUMENTATION GRAPH
+ ===================
+
+ This DTD specifies the XML representation of argumentation graphs following the
+ annotation scheme described in
+
+   Andreas Peldszus and Manfred Stede. From argument diagrams to argumentation
+   mining in texts: a survey. International Journal of Cognitive Informatics 
+   and Natural Intelligence (IJCINI), 7(1):1–31, 2013.
+
+ 
+ An argumentation graph is a directed graph spanning over text segments. The
+ format distinguishes three different sorts of nodes: EDUs, ADUs & EDU-joints.
+
+ - EDU: elementary discourse units
+   The text is segmented into elementary discourse units, typically at a
+   clause/sentence level. This segmentation can be the result of manually
+   annotation or of automatic discourse segmenters.
+   
+ - ADU: argumentative discourse units
+   Not every EDU is relevant in an argumentation. Also, the same claim might
+   be stated multiple times in longer texts. An argumentative discourse unit
+   represents a claim that stands for itself and is argumentatively relevant.
+   It is thus grounded in one or more EDUs. EDU and ADUs are connected by 
+   segmentation edges. ADUs are associated with a dialectic role: They are
+   either proponent or opponent nodes.
+
+ - JOINT: a joint of two or more adjacent elementary discourse units
+   When two adjacent EDUs are argumentatively relevant only when taken
+   together, these EDUs are first connected with one joint EDU node by
+   segmentation edges and then this joint node is connected to a corresponding
+   ADU.
+-->
+
+
+<!-- ### edge type ###
+ The edges representing arguments are those that connect ADUs. The scheme
+ distinguishes between supporting and attacking relations. Supporting
+ relations are normal support and support by example. Attacking relations are
+ rebutting attacks (directed against another node, challenging the accept-
+ ability of the corresponding claim) and undercutting attacks (directed
+ against another relation, challenging the argumentative inference from the
+ source to the target of the relation). Finally, additional premises of 
+ relations with more than one premise are represented by additional source
+ relations.
+
+ # Values
+ seg: segmentation edges (EDU->ADU, EDU->JOINT, JOINT->ADU)
+ sup: support (ADU->ADU)
+ exa: support by example (ADU->ADU)
+ add: additional source, for combined/convergent arguments with multiple
+      premises (ADU->ADU)
+ reb: rebutting attack (ADU->ADU)
+ und: undercutting attack (ADU->Edge)
+-->
+<!ENTITY % EdgeType "(seg | sup | exa | add | reb | und)">
+
+
+<!-- ### adu type ###
+ The argumentation can be thought of as a dialectical exchange between the
+ role of the proponent (who is presenting and defending the central claim)
+ and the role of the opponent (who is critically challenging the proponents
+ claims). Each ADU is thus associated with one of these dialectic roles.
+
+ # Values
+ pro: proponent
+ opp: opponent
+-->
+<!ENTITY % AduType "(pro | opp)">
+
+
+<!-- ### stance type ###
+ Annotated texts typically discuss a controversial topic, i.e. an issue posed
+ as a yes/no question. Example: "Should we make use of capital punishment?"
+ The stance type specifies, which stance the author of this text takes
+ towards this issue.
+ 
+ # Values
+ pro: yes, in favour of the proposed issue
+ con: no, against the proposed issue
+-->
+<!ENTITY % StanceType "(pro | con)">
+
+
+<!ELEMENT edu ( #PCDATA ) >
+<!ATTLIST edu id ID #REQUIRED >
+
+<!ELEMENT joint EMPTY >
+<!ATTLIST joint id ID #REQUIRED >
+
+<!ELEMENT adu EMPTY >
+<!ATTLIST adu id ID #REQUIRED >
+<!ATTLIST adu type %AduType; #REQUIRED >
+
+<!ELEMENT edge EMPTY >
+<!ATTLIST edge id ID #REQUIRED >
+<!ATTLIST edge src IDREF #REQUIRED >
+<!ATTLIST edge trg IDREF #REQUIRED >
+<!ATTLIST edge type %EdgeType; #REQUIRED >
+
+<!ELEMENT arggraph ( edu+, joint*, adu+, edge+ ) >
+<!ATTLIST arggraph id ID #REQUIRED >
+<!ATTLIST arggraph stance %StanceType; #IMPLIED >
+<!ATTLIST arggraph topic_id NMTOKEN #IMPLIED >
+
