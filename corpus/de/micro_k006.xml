@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k006">
+<arggraph id="micro_k006" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[Wenn Deutschland die Todesstrafe einführen würde, könnten verurteilte Verbrecher nicht vorzeitig entlassen werden oder ausbrechen und neue Straftaten begehen.]]></edu>
   <edu id="e2"><![CDATA[Allerdings bringt der Tod den Betroffenen und Angehörigen nicht mehr als wenn die Verbrecher eine Haftstrafe langjährige bekommen würden.]]></edu>
   <edu id="e3"><![CDATA[Außerdem leben wir nicht mehr im Mittelalter.]]></edu>

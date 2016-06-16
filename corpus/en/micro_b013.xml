@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b013">
+<arggraph id="micro_b013" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
   <edu id="e1"><![CDATA[Health insurance companies should naturally cover alternative medical treatments.]]></edu>
   <edu id="e2"><![CDATA[Not all practices and approaches that are lumped together under this term may have been proven in clinical trials,]]></edu>
   <edu id="e3"><![CDATA[yet it's precisely their positive effect when accompanying conventional 'western' medical therapies that's been demonstrated as beneficial.]]></edu>

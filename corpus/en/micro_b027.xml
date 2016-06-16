@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b027">
+<arggraph id="micro_b027" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[The death penalty should be abandoned everywhere.]]></edu>
   <edu id="e2"><![CDATA[From a Christian and humanistic perspective it is not allowed to kill someone.]]></edu>
   <edu id="e3"><![CDATA[Proponents of the death penalty count on its deterring effect as well as the ultimate elimination of any potential threat.]]></edu>

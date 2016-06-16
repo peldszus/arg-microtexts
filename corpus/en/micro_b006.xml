@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b006">
+<arggraph id="micro_b006" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[The death penalty is a legal means that as such is not practicable in Germany.]]></edu>
   <edu id="e2"><![CDATA[For one thing, inviolable human dignity is anchored in our constitution,]]></edu>
   <edu id="e3"><![CDATA[and furthermore no one may have the right to adjudicate upon the death of another human being.]]></edu>

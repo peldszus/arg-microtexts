@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k006">
+<arggraph id="micro_k006" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[If Germany were to introduce the death penalty, convicted felons could not be paroled or break out of prison and commit new felonies.]]></edu>
   <edu id="e2"><![CDATA[However, a death would not be of any more use to those affected and their relatives than if the felon receives a long sentence.]]></edu>
   <edu id="e3"><![CDATA[Plus we don't live in medieval times anymore.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k004">
+<arggraph id="micro_k004" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
   <edu id="e1"><![CDATA[Supermärkte und Einkaufszentren sollten an beliebigen Sonn- und Feiertagen geöffnet werden dürfen.]]></edu>
   <edu id="e2"><![CDATA[Das mag für die Angestellten eine Umstellung sein, die sich nicht ohne Weiteres realisieren lässt.]]></edu>
   <edu id="e3"><![CDATA[Besonders für berufstätige Kunden würde es aber größere Flexibilität und weniger nervenaufreibende Stoßzeiten unter der Woche bedeuten.]]></edu>

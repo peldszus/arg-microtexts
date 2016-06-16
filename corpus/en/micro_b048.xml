@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b048">
+<arggraph id="micro_b048" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[Every German citizen has a right to education.]]></edu>
   <edu id="e2"><![CDATA[Quality at universities has its price,]]></edu>
   <edu id="e3"><![CDATA[which is why students also ought to be involved in this cost factor.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k021">
+<arggraph id="micro_k021" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA["Eigentum verpflichtet" lautet ein Grundsatz unserer Gesellschaftsordung.]]></edu>
   <edu id="e2"><![CDATA[Zwar soll ein Jeder aus seinem Eigentum maximalen Profit schlagen können.]]></edu>
   <edu id="e3"><![CDATA[Eine alleinige Bestimmung des Mietpreises anhand des Marktes wird jedoch zu einer weiteren Separierung der Gesellschaft führen.]]></edu>

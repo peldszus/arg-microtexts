@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k002">
+<arggraph id="micro_k002" topic_id="charge_tuition_fees" stance="pro">
   <edu id="e1"><![CDATA[Actually it would be justified if all German universities charged tuition fees.]]></edu>
   <edu id="e2"><![CDATA[As long as it is ensured that the funds really benefit the universities directly, one can continue to regard this as social justice.]]></edu>
   <edu id="e3"><![CDATA[Those who study later decide this early on, anyway.]]></edu>

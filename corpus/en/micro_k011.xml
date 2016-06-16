@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k011">
+<arggraph id="micro_k011" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[Rent increases upon re-letting aren't bad as such, if it's only a small amount,]]></edu>
   <edu id="e2"><![CDATA[With those kinds of amounts you think twice about whether you really want to stay in the flat.]]></edu>
   <edu id="e3"><![CDATA[If there must be rent increases, there should also be a cap to avoid nasty surprises.]]></edu>

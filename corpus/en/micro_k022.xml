@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k022">
+<arggraph id="micro_k022" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
   <edu id="e1"><![CDATA[It is quite clear that Sunday should remain a day of rest.]]></edu>
   <edu id="e2"><![CDATA[For you can go shopping 6 days a week,]]></edu>
   <edu id="e3"><![CDATA[as shops are open till 10pm on some days.]]></edu>

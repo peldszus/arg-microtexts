@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k020">
+<arggraph id="micro_k020" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[Trotz Todesstrafe geschehen in den USA signifikant mehr Morde als in Deutschland.]]></edu>
   <edu id="e2"><![CDATA[Die Angst vor Bestrafung schreckt Mörder also nicht ab.]]></edu>
   <edu id="e3"><![CDATA["Auge um Auge" scheint seinen Sinn zu verfehlen.]]></edu>

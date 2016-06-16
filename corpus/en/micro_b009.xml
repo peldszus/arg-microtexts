@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b009">
+<arggraph id="micro_b009" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[It is unfair and unjustifiable that new tenants have to pay a much higher rent than previous residents.]]></edu>
   <edu id="e2"><![CDATA[Clearly the landlord has to pay for some repairs before a new lease.]]></edu>
   <edu id="e3"><![CDATA[But surely these costs could be covered by a minimal increase in rent over the course of the entire lease.]]></edu>

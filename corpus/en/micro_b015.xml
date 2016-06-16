@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b015">
+<arggraph id="micro_b015" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
   <edu id="e1"><![CDATA[Well, I as an employee find it very practical to be able to shop at least on weekends.]]></edu>
   <edu id="e2"><![CDATA[Sure, other people have to work in the shops on the weekend,]]></edu>
   <edu id="e3"><![CDATA[but they can have days off during the week and run errands at their leisure while I'm stuck in the office.]]></edu>

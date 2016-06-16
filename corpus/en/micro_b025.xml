@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b025">
+<arggraph id="micro_b025" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
   <edu id="e1"><![CDATA[From time immemorial humans have had complementary medicine,]]></edu>
   <edu id="e2"><![CDATA[and it has not generally been ineffective.]]></edu>
   <edu id="e3"><![CDATA[A reduction in the amount of chemically produced medication per person is most certainly desirable.]]></edu>

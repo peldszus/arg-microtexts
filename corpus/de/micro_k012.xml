@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k012">
+<arggraph id="micro_k012" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[Deutsche Universitäten sollten auf keinen Fall Studiengebühren verlangen.]]></edu>
   <edu id="e2"><![CDATA[Dies würde nur dazu führen, dass sich nur Menschen mit gut verdienenden Eltern oder einer vorherigen Ausbildung und einem Nebenjob während des Studiums überhaupt für ein Studium bewerben könnten.]]></edu>
   <edu id="e3"><![CDATA[Auch ohne Studiengebühren muss jeder zweite während des Studierens arbeiten und hat so weniger Zeit für das Lernen und die Freizeit.]]></edu>

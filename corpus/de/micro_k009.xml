@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k009">
+<arggraph id="micro_k009" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[Deutschland sollte auf keinen Fall die Todesstrafe einführen.]]></edu>
   <edu id="e2"><![CDATA[Gäbe es eine Todesstrafe, würde das bedeuten, dass es Menschen erlaubt werden soll, sich über andere zu stellen und über deren Leben zu entscheiden.]]></edu>
   <edu id="e3"><![CDATA[Die Todesstrafe auszuführen wäre Mord und müsste ebenfalls mit der Todesstrafe bestraft werden.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b034">
+<arggraph id="micro_b034" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[Tuition fees should not generally be charged by universities.]]></edu>
   <edu id="e2"><![CDATA[Universities are for all citizens, independent of their finances.]]></edu>
   <edu id="e3"><![CDATA[Education and training are fundamental rights which the state, the society must provide.]]></edu>

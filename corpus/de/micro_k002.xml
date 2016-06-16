@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k002">
+<arggraph id="micro_k002" topic_id="charge_tuition_fees" stance="pro">
   <edu id="e1"><![CDATA[Im Grunde wäre es gerechtfertigt, wenn alle Universitäten in Deutschland Studiengebühren verlangen würden.]]></edu>
   <edu id="e2"><![CDATA[Solange sichergestellt wird, dass das Geld wirklich direkt den Universitäten zugutekommt, kann durchaus weiterhin von sozialer Gerechtigkeit gesprochen werden.]]></edu>
   <edu id="e3"><![CDATA[Wer später studiert, entscheidet sich ohnehin bereits in früheren Jahren.]]></edu>

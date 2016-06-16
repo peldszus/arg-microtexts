@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k020">
+<arggraph id="micro_k020" topic_id="introduce_capital_punishment" stance="con">
   <edu id="e1"><![CDATA[Despite the death penalty there are significantly more homicides in the US than in Germany.]]></edu>
   <edu id="e2"><![CDATA[Fear of punishment hence does not deter murderers.]]></edu>
   <edu id="e3"><![CDATA['An eye for an eye' seems to miss the point.]]></edu>

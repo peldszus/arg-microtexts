@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b035">
+<arggraph id="micro_b035" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
   <edu id="e1"><![CDATA[Complementary medicine includes treatments with proven health benefits in many areas]]></edu>
   <edu id="e2"><![CDATA[which are often less costly than medication from conventional medicine, which are also paid for after all.]]></edu>
   <edu id="e3"><![CDATA[Often natural treatments do not put as much of a strain on the patient.]]></edu>
