@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b001">
+<arggraph id="micro_b001" topic_id="waste_separation" stance="pro">
   <edu id="e1"><![CDATA[Yes, it's annoying and cumbersome to separate your rubbish properly all the time.]]></edu>
   <edu id="e2"><![CDATA[Three different bin bags stink away in the kitchen and have to be sorted into different wheelie bins.]]></edu>
   <edu id="e3"><![CDATA[But still Germany produces way too much rubbish]]></edu>

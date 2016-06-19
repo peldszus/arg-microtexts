@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b026">
+<arggraph id="micro_b026" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
   <edu id="e1"><![CDATA[The statutory health insurance companies should also cover treatments with non-medical and alternative practitioners.]]></edu>
   <edu id="e2"><![CDATA[Their treatment methods and successes are not amply researched or proven.]]></edu>
   <edu id="e3"><![CDATA[Yet many patients subjectively experience relief or are cured of their complaints,]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b012">
+<arggraph id="micro_b012" topic_id="school_uniforms" stance="pro">
   <edu id="e1"><![CDATA[Some may find the idea of a school uniform anachronistic,]]></edu>
   <edu id="e2"><![CDATA[or regard it as too much of an intervention into the leeway of students and parents to make decisions.]]></edu>
   <edu id="e3"><![CDATA[Indeed, however, it's already the case today that students of apparently 'uniform-free' schools are essentially wearing a uniform consisting of certain brand-name garments.]]></edu>

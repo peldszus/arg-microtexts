@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k016">
+<arggraph id="micro_k016" topic_id="EU_influence_on_political_events_in_Ukraine" stance="con">
   <edu id="e1"><![CDATA[Despite the severe clashes in Kiev, which at times have threatened to escalate,]]></edu>
   <edu id="e2"><![CDATA[the EU should not intervene in local politics.]]></edu>
   <edu id="e3"><![CDATA[Although Ukraine is a European country,]]></edu>

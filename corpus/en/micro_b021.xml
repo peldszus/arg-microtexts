@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b021">
+<arggraph id="micro_b021" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[Tuition fees should not be charged in Germany.]]></edu>
   <edu id="e2"><![CDATA[Studying and taking higher degrees must remain a basic right for everyone.]]></edu>
   <edu id="e3"><![CDATA[Fees result in longer durations of studies.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b053">
+<arggraph id="micro_b053" topic_id="health_insurance_cover_complementary_medicine" stance="con">
   <edu id="e1"><![CDATA[Many people see proven relief of their symptoms and complaints by complementary medicine.]]></edu>
   <edu id="e2"><![CDATA[However there is no substantiated data that this healing isn't simply due to the placebo effect.]]></edu>
   <edu id="e3"><![CDATA[Besides many practices in this field are not regulated professions,]]></edu>

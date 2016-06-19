@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b032">
+<arggraph id="micro_b032" topic_id="higher_dog_poo_fines" stance="pro">
   <edu id="e1"><![CDATA[There should be a higher fine for dog dirt on the pavement.]]></edu>
   <edu id="e2"><![CDATA[Dog dirt is disgusting and a hygiene problem.]]></edu>
   <edu id="e3"><![CDATA[Also children, adults and other animals aren't allowed to leave droppings on the pavement.]]></edu>

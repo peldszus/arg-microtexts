@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k025">
+<arggraph id="micro_k025" topic_id="introduce_capital_punishment" stance="pro">
   <edu id="e1"><![CDATA[Capital punishment is not a solution,]]></edu>
   <edu id="e2"><![CDATA[as it cannot be ruled out that the judicial process may make mistakes.]]></edu>
   <edu id="e3"><![CDATA[Criminals should not be put in luxury prisons, though.]]></edu>

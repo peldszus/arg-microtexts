@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k011">
+<arggraph id="micro_k011" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[Mietpreiserhöhungen bei einer Neuvermietung sind an sich nicht so schlimm, wenn es sich nur um einen kleinen Betrag handelt,]]></edu>
   <edu id="e2"><![CDATA[sehr schlimm allerdings, wenn die Miete auf einmal 100,- bis 200,-€ steigt.]]></edu>
   <edu id="e3"><![CDATA[Bei diesen Beträgen überlegt man es sich noch einmal, ob man wirklich in der Wohnung bleiben will.]]></edu>

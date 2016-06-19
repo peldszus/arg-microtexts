@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b010">
+<arggraph id="micro_b010" topic_id="health_insurance_cover_complementary_medicine" stance="pro">
   <edu id="e1"><![CDATA[Alternative treatments should be subsidized in the same way as conventional treatments,]]></edu>
   <edu id="e2"><![CDATA[since both methods can lead to the prevention, mitigation or cure of an illness.]]></edu>
   <edu id="e3"><![CDATA[Besides it should be in the interest of the health insurers to recognize alternative medicine as treatment,]]></edu>

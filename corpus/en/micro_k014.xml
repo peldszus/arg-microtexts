@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k014">
+<arggraph id="micro_k014" topic_id="stricter_regulation_of_intelligence_services" stance="pro">
   <edu id="e1"><![CDATA[Intelligence services should be more closely regulated by parliament,]]></edu>
   <edu id="e2"><![CDATA[for, as the most recent NSA wiretapping scandal has shown, the federal state government is allegedly not always familiar with the scope of operations of its intelligence services.]]></edu>
   <edu id="e3"><![CDATA[Checks could contribute to restricting the so far rather opaque scope of action of individual services.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b028">
+<arggraph id="micro_b028" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[The universities in Germany should not under any circumstances charge tuition fees.]]></edu>
   <edu id="e2"><![CDATA[This would impede or prevent access to those who are financially weaker.]]></edu>
   <edu id="e3"><![CDATA[The anticipated objectives of tuition fees can be achieved by other means.]]></edu>

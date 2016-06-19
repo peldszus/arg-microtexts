@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k004">
+<arggraph id="micro_k004" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="pro">
   <edu id="e1"><![CDATA[Supermarkets and shopping centres should be allowed to open on any Sundays and holidays.]]></edu>
   <edu id="e2"><![CDATA[This may be a change for the employees that cannot to be implemented easily.]]></edu>
   <edu id="e3"><![CDATA[However, especially for working customers this would mean greater flexibility and fewer nerve-racking peak times during the week.]]></edu>

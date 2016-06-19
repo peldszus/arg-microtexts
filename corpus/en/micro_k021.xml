@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k021">
+<arggraph id="micro_k021" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA['Property entails commitment' is one of the tenets of our social order.]]></edu>
   <edu id="e2"><![CDATA[Everyone should be able to get the utmost profit from his or her property.]]></edu>
   <edu id="e3"><![CDATA[A fixing of rent prices according to the market alone, however, will lead to a further division of society.]]></edu>

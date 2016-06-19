@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k012">
+<arggraph id="micro_k012" topic_id="charge_tuition_fees" stance="con">
   <edu id="e1"><![CDATA[German universities should on no account charge tuition fees.]]></edu>
   <edu id="e2"><![CDATA[This would simply mean that only those people with wealthy parents or a previous education and a part-time job while studying would be able to apply for a degree programme in the first place.]]></edu>
   <edu id="e3"><![CDATA[Even without tuition fees half of the student population has to work while studying and hence has less time for studying or recreation.]]></edu>

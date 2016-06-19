@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b018">
+<arggraph id="micro_b018" topic_id="health_insurance_cover_complementary_medicine" stance="con">
   <edu id="e1"><![CDATA[The choice of an attending physician is at the discretion of the patient.]]></edu>
   <edu id="e2"><![CDATA[Yet the funds of the health insurance companies are a common benefit for all premium payers.]]></edu>
   <edu id="e3"><![CDATA[They should not be spent on personal preferences without proven use.]]></edu>

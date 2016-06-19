@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b050">
+<arggraph id="micro_b050" topic_id="keep_retirement_at_63" stance="con">
   <edu id="e1"><![CDATA[Germany's aging society is undergoing demographic change,]]></edu>
   <edu id="e2"><![CDATA[and the age of those who are physically and mentally fit is increasing steadily.]]></edu>
   <edu id="e3"><![CDATA[Thus social security and pension costs are increasing.]]></edu>

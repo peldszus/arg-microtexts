@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b019">
+<arggraph id="micro_b019" topic_id="buy_tax_evader_data_from_dubious_sources" stance="con">
   <edu id="e1"><![CDATA[It is desirable that no one channels his or her wealth past the tax authorities.]]></edu>
   <edu id="e2"><![CDATA[Those who do or try to should be held accountable if at all possible.]]></edu>
   <edu id="e3"><![CDATA[Having said that, state funds are often wasted on nonsensical investments,]]></edu>

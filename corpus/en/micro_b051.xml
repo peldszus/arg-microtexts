@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b051">
+<arggraph id="micro_b051" topic_id="allow_shops_to_open_on_holidays_and_sundays" stance="con">
   <edu id="e1"><![CDATA[Due to the increase in opening hours on Sundays and holidays there is a rise in employment.]]></edu>
   <edu id="e2"><![CDATA[However it's mainly temps (that is, students, pupils etc.) who are employed,]]></edu>
   <edu id="e3"><![CDATA[so this has hardly any effect on the level of full-time employment and the number of unemployed.]]></edu>

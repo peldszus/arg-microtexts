@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_k025">
+<arggraph id="micro_k025" topic_id="introduce_capital_punishment" stance="pro">
   <edu id="e1"><![CDATA[Die Todestrafe ist keine Lösung,]]></edu>
   <edu id="e2"><![CDATA[weil es nicht auszuschliessen ist, dass die Justiz sich nicht irren kann.]]></edu>
   <edu id="e3"><![CDATA[Die Straftäter sollten jedoch nicht in Luxus-Gefängnissen sitzen.]]></edu>

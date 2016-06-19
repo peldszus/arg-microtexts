@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_b017">
+<arggraph id="micro_b017" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[Rent prices should be limited by a cap when there's a change of tenant.]]></edu>
   <edu id="e2"><![CDATA[Landlords may want to earn as much as possible,]]></edu>
   <edu id="e3"><![CDATA[and many, consistent with market principles, are prepared to pay higher rents,]]></edu>
