@@ -80,8 +80,9 @@
  # Values
  pro: yes, in favour of the proposed issue
  con: no, against the proposed issue
+ unclear: the position of the author is unclear
 -->
-<!ENTITY % StanceType "(pro | con)">
+<!ENTITY % StanceType "(pro | con | unclear)">
 
 
 <!ELEMENT edu ( #PCDATA ) >
