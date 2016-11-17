@@ -111,7 +111,7 @@ The xml representation of the arguments includes a reference to the topic id and
   
   de: Sollte Deutschland CDs mit Daten von Steuersündern aus dubiosen Quellen ankaufen?
   
-  en: Should Germany by CDs with tax evader data from dubious sources?
+  en: Should Germany buy CDs with tax evader data from dubious sources?
 
 
 * `TXL_airport_remain_operational_after_BER_opening`
