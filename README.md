@@ -46,11 +46,18 @@ See also
 Literature
 ----------
 
-* Andreas Peldszus, Manfred Stede. An annotated corpus of argumentative microtexts. First European Conference on Argumentation: Argumentation and Reasoned Action, Portugal, Lisbon, June 2015. [link](http://www.ling.uni-potsdam.de/~peldszus/eca2015-preprint.pdf)
+* [An annotated corpus of argumentative microtexts](https://peldszus.github.io/files/eca2015-preprint.pdf)  
+  Andreas Peldszus, Manfred Stede.  
+  First European Conference on Argumentation: Argumentation and Reasoned Action, Portugal, Lisbon, June 2015.
 
-* Andreas Peldszus, Saskia Warzecha, Manfred Stede. Argumentationsstruktur. In: Manfred Stede (Ed.) Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0. Potsdam Cognitive Science Series, Volume 8, Universitätsverlag, Potsdam, 2016, Pages 185-208. [link](http://nbn-resolving.de/urn:nbn:de:kobv:517-opus4-82761)
+* [Argumentationsstruktur](http://nbn-resolving.de/urn:nbn:de:kobv:517-opus4-82761)  
+  Andreas Peldszus, Saskia Warzecha, Manfred Stede.  
+  In: Manfred Stede (Ed.) Handbuch Textannotation: Potsdamer Kommentarkorpus 2.0. Potsdam Cognitive Science Series, Volume 8, Universitätsverlag, Potsdam, 2016, Pages 185-208.
 
-* Andreas Peldszus. Towards segment-based recognition of argumentation structure in short texts. In: First Workshop on Argumentation Mining, ACL, Baltimore, Maryland, June 2014. [link](https://aclweb.org/anthology/W/W14/W14-2112.pdf)
+* [Towards segment-based recognition of argumentation structure in short texts](https://aclweb.org/anthology/W/W14/W14-2112.pdf)  
+  Andreas Peldszus.  
+  In: First Workshop on Argumentation Mining, ACL, Baltimore, Maryland, June 2014.
 
-* Andreas Peldszus, Manfred Stede. From Argument Diagrams to Argumentation Mining in Texts: A survey. In: International Journal of Cognitive Informatics and Natural Intelligence (IJCINI) Volume 7, Issue 1, 2013, Pages 1-31. [link](http://www.ling.uni-potsdam.de/~peldszus/ijcini2013-preprint.pdf)
-
+* [From Argument Diagrams to Argumentation Mining in Texts: A survey](https://peldszus.github.io/files/ijcini2013-preprint.pdf)  
+  Andreas Peldszus, Manfred Stede.  
+  In: International Journal of Cognitive Informatics and Natural Intelligence (IJCINI) Volume 7, Issue 1, 2013, Pages 1-31.
