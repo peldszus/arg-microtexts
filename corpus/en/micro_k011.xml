@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <arggraph id="micro_k011" topic_id="cap_rent_increases" stance="pro">
   <edu id="e1"><![CDATA[Rent increases upon re-letting aren't bad as such, if it's only a small amount,]]></edu>
-  <edu id="e2"><![CDATA[With those kinds of amounts you think twice about whether you really want to stay in the flat.]]></edu>
-  <edu id="e3"><![CDATA[If there must be rent increases, there should also be a cap to avoid nasty surprises.]]></edu>
-  <edu id="e4"><![CDATA[This helps the landlords,]]></edu>
-  <edu id="e5"><![CDATA[as they can adjust their expenses through the increase,]]></edu>
-  <edu id="e6"><![CDATA[and also the tenants,]]></edu>
-  <edu id="e7"><![CDATA[as they can plan for a maximum rent increase.]]></edu>
-  <edu id="e8"><![CDATA[That the landlords are then slightly restricted in the administration of their property is not a problem,]]></edu>
-  <edu id="e9"><![CDATA[as they have more pull in the end anyway.]]></edu>
-  <edu id="e10"><![CDATA[they’re very bad however, if the rent suddenly climbs by €100 or €200.]]></edu>
+  <edu id="e2"><![CDATA[they’re very bad however, if the rent suddenly climbs by €100 or €200.]]></edu>
+  <edu id="e3"><![CDATA[With those kinds of amounts you think twice about whether you really want to stay in the flat.]]></edu>
+  <edu id="e4"><![CDATA[If there must be rent increases, there should also be a cap to avoid nasty surprises.]]></edu>
+  <edu id="e5"><![CDATA[This helps the landlords,]]></edu>
+  <edu id="e6"><![CDATA[as they can adjust their expenses through the increase,]]></edu>
+  <edu id="e7"><![CDATA[and also the tenants,]]></edu>
+  <edu id="e8"><![CDATA[as they can plan for a maximum rent increase.]]></edu>
+  <edu id="e9"><![CDATA[That the landlords are then slightly restricted in the administration of their property is not a problem,]]></edu>
+  <edu id="e10"><![CDATA[as they have more pull in the end anyway.]]></edu>
   <adu id="a1" type="opp"/>
   <adu id="a2" type="pro"/>
   <adu id="a3" type="pro"/>
