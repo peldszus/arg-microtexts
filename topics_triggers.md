@@ -49,7 +49,7 @@ The xml representation of the arguments includes a reference to the topic id and
   
   de: Sollte die „Pille danach“ rezeptfrei in Apotheken erhältlich sein? 
   
-  en: Should the the morning-after pill be sold over the counter at the pharmacy?
+  en: Should the morning-after pill be sold over the counter at the pharmacy?
 
 
 * `charge_tuition_fees`
